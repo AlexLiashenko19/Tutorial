@@ -1,0 +1,128 @@
+/* Основний Колір #2E2F42; */
+/* Колір кнопки та Веб #4D5AE5 */
+
+:root {
+    --central-color: #2E2F42;
+    --button-color: #4D5AE5;
+    --white-color-text: #FFFFFF;
+}
+
+body {
+    color: #2E2F42;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+
+/* first page */
+/* Logo */
+.logo {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--button-color);
+}
+
+/* Link */
+
+.link a {
+    color: var(--central-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.link a:hover,
+.link a:focus {
+    color: var(--white-color-text);
+    background-color: var(--button-color);
+}
+
+.info-contact a:hover,
+.info-contact a:focus {
+    color: var(--white-color-text);
+    background-color: var(--button-color);
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero-text {
+    color: var(--white-color-text);
+
+    font-size: 56px;
+    line-height: 1;
+    text-align: center;
+}
+
+/* button */
+
+.button {
+    background-color: var(--button-color);
+    color: var(--white-color-text);
+
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.button:hover,
+.button:focus {
+    color: #31D0AA;
+}
+
+.section-tit {
+    color: var(--central-color);
+
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.p-color {
+    color: #434455;
+    
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.dark-back {
+    background-color: #2E2F42;
+}
+
+/* second page */
+
+.apportunity .second {
+    color: var(--button-color);
+    background-color: #E7E9FC;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.second:hover,
+.second:focus {
+    background-color: #404BBF;
+    color: var(--white-color-text);
+}
+
+ul {
+    list-style-type: none;
+}
+
