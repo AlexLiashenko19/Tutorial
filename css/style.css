@@ -10,7 +10,7 @@
 body {
     color: #434455;
     background-color: var(--white-color-text);
-    font-family: Raleway, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
 }
 
@@ -18,7 +18,7 @@ body {
 /* Logo */
 .logo {
     color: #4d5ae5;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -26,12 +26,13 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.logo:link {
+    text-decoration: none
+}
 .logo:hover,
 .logo:focus {
     color: var(--button-color);
 }
-
 /* Link */
 .list {
     background-color: #F4F4FD;
