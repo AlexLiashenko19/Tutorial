@@ -26,16 +26,35 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-.logo:link {
-    text-decoration: none
-}
+
 .logo:hover,
 .logo:focus {
     color: var(--button-color);
 }
+
+.transition {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.transition:hover,
+.transition:focus {
+    color: #404bbf;
+}
+
+.addres {
+    font-style: normal;
+}
+
+.link {
+    text-decoration: none;
+}
+
 /* Link */
 .list {
-    background-color: #F4F4FD;
     list-style: none;
 }
 .link a {
@@ -46,21 +65,20 @@ body {
     line-height: 1.5;
 }
 
+.info-contact {
+    color: #434455;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
 .link a:hover,
 .link a:focus {
     color: var(--white-color-text);
     background-color: var(--button-color);
 }
-
-.info-contact a:hover,
-.info-contact a:focus {
-    color: var(--white-color-text);
-    background-color: var(--button-color);
-
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 .hero-text {
     color: var(--white-color-text);
 
