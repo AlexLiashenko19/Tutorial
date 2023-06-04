@@ -22,11 +22,11 @@ body {
 }
 
 /* first page */
+/* header */
 /* Logo */
-.logo .link {
+.logo {
     color: var(--button-color);
     font-family: "Raleway", sans-serif;
-
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -43,6 +43,15 @@ body {
     color:#2e2f42;
 }
 
+.site-nav .transition:hover,
+.site-nav .transition:focus {
+    color: #404bbf;
+}
+
+.auth-nav .info-contact:hover,
+.auth-nav .info-contact:focus {
+    color: #404bbf;
+}
 /* first section */
 .section-first {
     background-color: #2e2f42;
@@ -74,7 +83,6 @@ body {
 /* second section */
 .section-title {
     color: var(--central-color);
-
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -83,7 +91,6 @@ body {
 
 .p-color {
     color: #434455;
-
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -93,7 +100,6 @@ body {
 
 .section-tit {
     color: var(--central-color);
-
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -117,23 +123,27 @@ body {
     background-color: var(--central-color);
 }
 
-.logo-down {
-    color: #4d5ae5;
-
+.footer-back .logo-down {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.span-two {
+.footer-back .span-two {
     color: #f4f4fd;
 }
 
-.p-footer {
+.footer-back .p-footer {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* second page */
+
+/* header */
+/* main */
