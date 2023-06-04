@@ -60,15 +60,15 @@ body {
     font-style: normal;
 }
 
-.auth-nav .info-contact {
+.addres .info-contact {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.auth-nav .info-contact:hover,
-.auth-nav .info-contact:focus {
+.addres .info-contact:hover,
+.addres .info-contact:focus {
     color: #404bbf;
 }
 /* first section */
@@ -87,6 +87,7 @@ body {
 .button {
     color: var(--white-color-text);
     background-color: #4D5AE5;
+    
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
